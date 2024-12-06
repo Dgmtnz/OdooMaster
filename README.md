@@ -1,5 +1,5 @@
 
-```markdown
+
 # OdooMaster
 
 OdooMaster es una aplicación de escritorio desarrollada con PySide6 que simplifica la creación de módulos para Odoo. Esta herramienta permite generar módulos básicos de Odoo con una interfaz grá[...]
@@ -89,4 +89,4 @@ Si encuentras algún problema o tienes sugerencias para OdooMaster, no dudes en 
 - Diseñado para Odoo 17.0
 
 ¡Gracias por usar OdooMaster! Espero que esta herramienta te ayude a agilizar el desarrollo de módulos para Odoo.
-```
+
