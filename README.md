@@ -1,10 +1,12 @@
+
+```markdown
 # OdooMaster
 
-OdooMaster es una aplicación de escritorio desarrollada con PySide6 que simplifica la creación de módulos para Odoo. Esta herramienta permite generar módulos básicos de Odoo con una interfaz gráfica intuitiva, eliminando la necesidad de escribir código repetitivo manualmente.
+OdooMaster es una aplicación de escritorio desarrollada con PySide6 que simplifica la creación de módulos para Odoo. Esta herramienta permite generar módulos básicos de Odoo con una interfaz grá[...]
 
 ## Descripción
 
-OdooMaster proporciona una interfaz visual para definir modelos, campos y vistas de Odoo. La aplicación genera automáticamente toda la estructura necesaria del módulo, incluyendo archivos Python, vistas XML y configuraciones de seguridad. Además, crea un script bash para facilitar la instalación en sistemas Linux.
+OdooMaster proporciona una interfaz visual para definir modelos, campos y vistas de Odoo. La aplicación genera automáticamente toda la estructura necesaria del módulo, incluyendo archivos Python, v[...]
 
 ### Características principales:
 - Interfaz gráfica intuitiva para la definición de módulos
@@ -31,20 +33,21 @@ OdooMaster proporciona una interfaz visual para definir modelos, campos y vistas
 
 1. Clona este repositorio:
 
-bash
+```bash
 git clone https://github.com/dgmtnz/OdooMaster.git
-
+```
 
 2. Instala las dependencias:
 
-bash
+```bash
 pip install PySide6
-   
+```
+
 3. Ejecuta la aplicación:
 
-bash
+```bash
 python main_window.py
-
+```
 
 ## Uso
 
@@ -66,15 +69,14 @@ OdooMaster genera dos elementos:
 
 Para instalar usando el script:
 
-bash
+```bash
 sudo chmod +x create_[nombre_modulo]module.sh
 sudo ./create_[nombre_modulo]module.sh
-
-
+```
 
 ## Licencia
 
-Este proyecto está bajo la licencia GPL (Licencia Pública General de GNU). Puedes copiar, modificar y distribuir el código, siempre que mantengas la misma licencia y hagas público cualquier cambio realizado.
+Este proyecto está bajo la licencia GPL (Licencia Pública General de GNU). Puedes copiar, modificar y distribuir el código, siempre que mantengas la misma licencia y hagas público cualquier cambio[...]
 
 ## Soporte
 
@@ -87,3 +89,4 @@ Si encuentras algún problema o tienes sugerencias para OdooMaster, no dudes en 
 - Diseñado para Odoo 17.0
 
 ¡Gracias por usar OdooMaster! Espero que esta herramienta te ayude a agilizar el desarrollo de módulos para Odoo.
+```
